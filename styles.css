@@ -1,0 +1,248 @@
+.dropdown_invisible {
+  width: 0px;
+  height: 0px;
+}
+
+.dropdown_invisible > .Select-control {
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  border: none;
+  background: transparent;
+}
+
+
+/* rapport */
+.btn-rapport {
+  background: linear-gradient(0deg, rgb(223, 148, 9) 0%, rgb(156, 104, 8) 100%);
+  color: aliceblue;
+  width: 35%;
+  height: 75px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  border-radius: 15px;
+}
+.btn-rapport span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-rapport:hover{
+  color: aliceblue;
+  background: rgb(156, 104, 8);
+  box-shadow: none;
+  border-radius: 15px;
+}
+
+.btn-rapport:focus{
+  border : 3px solid red;
+  box-shadow: none;
+}
+
+
+/* rapport */
+.btn-rapportvalide {
+  background: linear-gradient(0deg, rgb(9, 223, 159) 0%, rgb(8, 151, 156) 100%);
+  color: aliceblue;
+  width: 35%;
+  height: 75px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  border-radius: 15px;
+}
+.btn-rapportvalide span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-rapportvalide:hover{
+  color: aliceblue;
+  background: rgb(8, 156, 126);
+  box-shadow: none;
+  border-radius: 15px;
+}
+
+.btn-rapportvalide:focus{
+  border : 3px solid red;
+  box-shadow: none;
+}
+
+
+/* 3 */
+.btn-3 {
+  background: linear-gradient(0deg, rgb(9, 162, 223) 0%, rgb(11, 1, 100) 100%);
+  color: aliceblue;
+  width: 35%;
+  height: 75px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-3:hover{
+  color: aliceblue;
+  background: rgb(11, 1, 100);
+  box-shadow: none;
+}
+
+.btn-3:focus{
+  border : 3px solid red;
+  box-shadow: none;
+}
+
+/* 4 */
+.btn-4 {
+  background: linear-gradient(0deg, rgb(9, 223, 145) 0%, rgb(1, 100, 87) 100%);
+  color: aliceblue;
+  width: 35%;
+  height: 75px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-4 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-4:hover{
+  color: aliceblue;
+  background:rgb(1, 100, 97);
+  box-shadow: none;
+}
+
+.btn-4:focus{
+  border : 3px solid red;
+  box-shadow: none;
+}
+
+
+/* info */
+.btn-info {
+  background: linear-gradient(0deg, rgb(7, 146, 146) 0%, rgb(87, 78, 163) 100%);
+  color: aliceblue;
+  width: 100%;
+  height: 50px;
+  line-height: 48px;
+  padding: 0px;
+  border: none;
+}
+.btn-info span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-info:hover{
+  color: aliceblue;
+  background: rgb(11, 1, 100);
+  box-shadow: none;
+}
+
+
+/* info select */
+.btn-infoselect {
+  background: linear-gradient(0deg, rgb(7, 146, 42) 0%, rgb(78, 163, 137) 100%);
+  color: aliceblue;
+  width: 100%;
+  height: 50px;
+  line-height: 48px;
+  padding: 0px;
+  border: none;
+}
+.btn-infoselect span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-infoselect:hover{
+  color: aliceblue;
+  background: rgb(7, 146, 42);
+  box-shadow: none;
+}
+
+
+
+/* invisible */
+.btn-invisible {
+  background: transparent;
+  color: rgb(255, 255, 255);
+  width: 0%;
+  height: 0px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+
+.btn-invisible:hover{
+  color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
+  box-shadow: none;
+}
+
+.btn-invisible:focus{
+  color: rgb(255, 255, 255);
+  border : 0px solid rgb(255, 255, 255);
+  box-shadow: none;
+}
+
+
+.table_clauses{
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border: 2px solid rgb(42, 43, 104);
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table_clauses thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.table_clauses th,
+.table_clauses td {
+    padding: 12px 20px 12px 20px;
+    text-align: center;
+    word-wrap: break-word;
+    column-width: 500px;
+    max-width: 600px;
+    min-width: 200px;
+}
+
+.table_clauses tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table_clauses tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table_clauses tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.table_clauses tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
